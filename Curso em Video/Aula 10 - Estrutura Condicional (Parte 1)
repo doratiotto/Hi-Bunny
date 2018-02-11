@@ -1,0 +1,25 @@
+# Condicionadores
+
+'''
+if, else, elif, and, or:
+if var = x:			if var <= x:			if var >= x:
+else:	
+'''
+
+nome = str(input('Qual é o seu nome? ')) .strip().lower()
+
+if nome == 'lua' :
+	 print('Oii luuu sua linda!!!')
+
+else: print('não é a lulu!!')
+print('bom dia {}' .format(nome))
+
+n1 = float(input('nota 1: '))
+n2 = float(input('nota 2: '))
+
+m = (n1 + n2)/2
+
+if m >=6 :
+	print('Aprovada')
+else: 
+	print('Reprovada')
