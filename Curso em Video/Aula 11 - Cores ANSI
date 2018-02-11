@@ -1,0 +1,20 @@
+# Cores ANSI
+
+'''
+\033[style; text; 	background m]
+	 0->9	30->37 	40 -> 47
+	
+'''
+
+lu = 'luana'
+
+print('o texto colorido é \033[31m{}' .format(lu))
+print('Olá, como vc é fofa {}{}{}!!!' .format('\033[4;36;47m', lu,'\033[m'))
+print('Olá, como vc é fofa {}{}{}!!!' .format('\033[4;37;46m', lu,'\033[m'))
+
+cores = {'limpa':'\033[m',
+		 'azul':'\033[34m',
+		 'amarelo':'\033[33m', 
+		 'pretobranco':'\033[7,30'}
+
+print('Olá, como vc é fofa {}{}{}!!!'.format(cores['amarelo'], lu, cores['limpa']))
