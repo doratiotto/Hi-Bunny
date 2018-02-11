@@ -1,0 +1,48 @@
+# Importar biblioteca/Módulos
+
+# import biblioteca 				import math
+# from biblioteca import objeto		from math import sqrt, floor
+
+# math
+#	ceil		(Arredonda o número pra cima)
+#	floor		(Arredonda o número pra baixo)
+#	tunc		(trunca o número)
+#	pow			(potência)
+#	sqrt		(raíz quadrada)
+#	factorial	(fatorial)
+#
+#
+#
+
+#import math
+from math import sqrt, floor
+
+n = int(input('Digite um número: '))
+
+#raiz = math.sqrt(n)
+raiz = sqrt(n)
+
+print('raiz de {} é {:.2}' .format(n, raiz))
+
+# Importar biblioteca/Módulos
+
+# import biblioteca 				import random
+# from biblioteca import objeto		from random import
+
+# random
+#				(Arredonda o número pra cima)
+#				(Arredonda o número pra baixo)
+#				(trunca o número)
+#					(potência)
+#				(raíz quadrada)
+#			(fatorial)
+
+
+#import ramdom
+##n = random.random()
+##n = random.randint(1,10)
+# print(n)
+
+import emoji
+
+print(emoji.emojize("Oieeeee :trollface:"))
