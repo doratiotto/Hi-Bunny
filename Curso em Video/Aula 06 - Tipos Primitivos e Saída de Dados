@@ -1,0 +1,13 @@
+# Tipos de variáveis
+n1 = int(input('Give me int'))       # nº Inteiro
+n2 = float(input('Give me float'))   # nº Flutuante = real*
+n3 = bool(input('Give me boolean'))  # valor Boolean = {True, False}
+n4 = str(input('Give me string'))    # String ou texto
+
+print('n1 is ', type(n1), 'n2 is ', type(n2), 'n3 is ', type(n3), 'n4 is ', type(n4))
+
+n = input('write anything')
+print(n.isnumeric())        # é numero?
+print(n.isalpha())          # é letra ?
+print(n.isalnum())          # é alfanumérico?
+# print(n.is) é qq coisa
