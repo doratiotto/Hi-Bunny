@@ -1,0 +1,21 @@
+n = input('Type anything')
+
+#print('your input is:', type(n), 'and also:')
+
+#print('is number:', n.isnumeric())
+#print('is decimal:', n.isdecimal())
+#print('is alphanumeric:', n.isalnum())
+#print('is a letter (not number):', n.isalpha())
+print('"{}" is a number: {}' .format(n, n.isnumeric()))
+print('"{}" is decimal: {}' .format(n, n.isdecimal()))
+print('"{}" is alphanumeric: {}' .format(n, n.isalnum()))
+print('"{}" is letter: {}' .format(n, n.isalpha()))
+
+#print('is a digit:', n.isdigit())
+#print('is upper case:', n.isupper())
+#print('is lower case:', n.islower())
+print('"{}" is a digit: {}' .format(n, n.isdigit()))
+print('"{}" is upper case: {}' .format(n, n.isupper()))
+print('"{}" is lower case: {}' .format(n, n.islower()))
+
+print('"{}" is a space: {}' .format(n, n.isspace()))
