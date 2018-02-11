@@ -1,2 +1,2 @@
 # Print
-print('hi binny!')
+print('hi bunny!')
