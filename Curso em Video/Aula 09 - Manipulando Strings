@@ -1,0 +1,41 @@
+# Tratamento de strings
+'''
+frase = str(input())
+
+Fatiamento 			
+
+frase[5] 		[5]							pega caractere 5º
+frase[5:21]		[5, 21) 					pega caractere 9º ao 20 anterior ao 21º
+frase[ :21]		[0, 21) 					Do 0º ao 20º
+frase[5:  ]		[5, fim)					Do 9º ao fim
+frase[9:21:2]	{9, 11, 13, 15, 17, 19}		Do 9º ao 20º de 2 em 2
+frase[5::3]									Do 5º ao fim de 3 em 3
+
+Análise
+
+len(frase)					comprimento da frase
+frase.count('b')			contar letras b de frase
+frase.count('b',0,13)		contar letras b de frase entre [0, 13)
+
+'lua' in frase				Indica se existe o termo dado 'lua'
+
+frase.find('lua',0,13)		Indica a posição de inicio do termo dado ou -1 se não houver
+frase.replace('lua', 'lui')	Troca os termos 'lua' por 'lui'
+frase.upper()				Troca tudo pra Maiúsculo
+frase.lower()				Troca tudo pra minúsculo
+frase.capitalize()			Apenas primeira letra da string Maiúscula
+frase.Title()				Apenas primeira letra das palavras Maiúscula
+frase.strip()				Remove espaços no início e fim
+frase.rstrip()				Remove espaços no fim (direita)
+frase.lstrip()				Remove espaços no começo (esquerda)
+
+Divisão
+
+frase.split()				Divide numa lista por espaços
+'-'.join(frase)				Junta os termos da lista com '-'
+
+Listas (se n >= 0)
+
+lista[n] 					retorna o elemento n da lista do primeiro ao último
+lista[-n]					retorna o elemento n da lista do último ao primeiro
+'''
